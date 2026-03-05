@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    max-height: fit-content;
+}
+
+.image1{
+    width: 55px;
+    margin: 5px;
+    padding: 5px;
+    height: 60px;
+}
+
+.hr{
+    background-color: white;
+    width: 600px;
+    height: 3px;
+}
