@@ -1,6 +1,8 @@
 body{
     background-color: black;
-    max-height: fit-content;
+     height: 100vh;
+  overflow-y: hidden;
+    
 }
 
 .image1{
@@ -10,8 +12,38 @@ body{
     height: 60px;
 }
 
-.hr{
-    background-color: white;
-    width: 600px;
-    height: 3px;
+.hr{  
+    width: 500px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border: none;
+}
+
+.center{
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.w25{
+    width: 180px;
+    margin: 5px;
+}
+
+.mb{
+    margin-bottom: 50px;
+  
+}
+
+.h{
+    height: 30px;
+}
+.m{
+    margin: 5px;
+    padding: 5px;
+}
+
+.black{
+    background-color: black;
+    color: white;
 }
