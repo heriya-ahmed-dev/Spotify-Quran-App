@@ -7,7 +7,6 @@ import ArrowForwardOutlinedIcon from '@mui/icons-material/ArrowForwardOutlined';
 
 import AllInclusiveOutlinedIcon from '@mui/icons-material/AllInclusiveOutlined';
 import './App.css'
-import Albums from './Albums';
 
 
 const Header = () => {
@@ -19,7 +18,7 @@ const Header = () => {
             <div className='bg-dark mb-3'>
               <div className='d-flex  gap-2 mb-2 bg-dark'>
                    <div className=''><HomeOutlinedIcon sx={{fontSize : 30}}/> </div>
-                       <div><h3 className='ms-2 fs-6 pt-1'>Home</h3></div>
+                       <div><a href="/" className='ms-2 fs-6 pt-1 text-whit'>Home</a></div>
              </div>
 
         <div className='d-flex  gap-2 bg-dark'>
@@ -47,7 +46,7 @@ const Header = () => {
          <div>
               <h6 className='pb-0 mb-0 fs-6'>Create your first Playist</h6>
               <p className='pt-0 mt-0 fs-6 fw-light'>It's easy we will help you</p>
-              <button className='rounded-5 mb-2 text-center fs-6'>Create playist</button> 
+              <button className='rounded-5 mb-2 text-center fs-6 btn btn-outline-primary'>Create playist</button> 
          </div>
        </div>
   
@@ -55,7 +54,7 @@ const Header = () => {
          <div>
               <h6 className='pb-0 mb-0'>let's findsome podcasts to follow</h6>
               <p className='pt-0 mt-0 fw-light'>We'll keep you upadte on new episodes</p>
-              <button className='rounded-5 mb-2 text-center'>Browse Podcasts</button> 
+              <button className='rounded-5 mb-2 text-center btn btn-outline-primary'>Browse Podcasts</button> 
          </div>
          </div>
        </div>

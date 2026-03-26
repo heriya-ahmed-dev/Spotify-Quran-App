@@ -1,7 +1,6 @@
 body{
     background-color: black;
-     height: 100vh;
-  overflow-y: hidden;
+    overflow-y: auto;
     
 }
 
@@ -13,11 +12,9 @@ body{
 }
 
 .hr{  
-    width: 500px;
-    height: 5px;
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-    border: none;
+  width: 500px;
+    border-top: 4px solid white;
+    border-bottom: none;
 }
 
 .center{
@@ -26,9 +23,15 @@ body{
 }
 
 .w25{
-    width: 180px;
+    width: 150px;
     margin: 6px;
 }
+
+.w15{
+    width: 135px;
+    margin: 13px;
+}
+
 
 .mb{
     margin-bottom: 50px;
@@ -46,4 +49,26 @@ body{
 .black{
     background-color: black;
     color: white;
+}
+
+.LB{
+    background-color: rgb(39, 38, 38);
+}
+
+.w50{
+    width: 180px;
+  
+}
+.line{
+    color: black;
+    width: 920px;
+}
+
+.smallimg{
+    width: 50px;
+}
+.gap{
+    gap: 23%;
+    margin-left: 17%;
+    margin-top: 5%;
 }

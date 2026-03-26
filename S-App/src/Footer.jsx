@@ -1,24 +1,22 @@
  import React from 'react';
-import SkipNextOutlinedIcon from '@mui/icons-material/SkipNextOutlined';
-import SkipPreviousOutlinedIcon from '@mui/icons-material/SkipPreviousOutlined';
-import PlayArrowOutlinedIcon from '@mui/icons-material/PlayArrowOutlined';
 import LoopOutlinedIcon from '@mui/icons-material/LoopOutlined';
-import images1 from'./images/ramadan-holy-month-greeting-poster.jpg'
+// import images1 from'./images/ramadan-holy-month-greeting-poster.jpg'
+import PauseOutlinedIcon from '@mui/icons-material/PauseOutlined';
+import SkipPreviousIcon from '@mui/icons-material/SkipPrevious';
+import PlayArrowIcon from '@mui/icons-material/PlayArrow';
+import SkipNextIcon from '@mui/icons-material/SkipNext';
+import image1 from './images/image1.png';
 
-import SlideshowSharpIcon from '@mui/icons-material/SlideshowSharp';
-import EditOutlinedIcon from '@mui/icons-material/EditOutlined';
-import AutoAwesomeMotionOutlinedIcon from '@mui/icons-material/AutoAwesomeMotionOutlined';
-import SpeakerPhoneOutlinedIcon from '@mui/icons-material/SpeakerPhoneOutlined';
 import './App.css'
  
  const Footer = () => {
    return (
-     <div className='d-flex justify-content-between'>
+     <div className='d-flex justify-content-between mt-5'>
         
           <div className='d-flex gap-2  text-center mb-3'>
              <div className='d-flex gap-2 '>
                 <div>
-                   <img src={images1} className='image1'/>
+                   <img src={image1} className='image1'/>
                 </div>
                <div className='pt-2 text-secondary'>
                  <p className='mb-0'>Listen one</p>    
@@ -28,32 +26,31 @@ import './App.css'
          </div>
           
           <div>
-            <div className='text-white gap-3 center'>
-                 <SkipPreviousOutlinedIcon  className='gap-3'/>
-                 <PlayArrowOutlinedIcon/>
-                 <SkipNextOutlinedIcon/>
-                 <LoopOutlinedIcon/>
-            </div><br/>
-            <div className='position-relative'>
-            <div className='position-absolute top-100 start-50 translate-middle '>
-                    <hr className="hr text-white" />
-            </div> 
+          
+              <div className=' position-absolute start-50 translate-middle-x mb-3'>
+              <div className='position-absolute top-100 start-50 translate-middle '>
+                    <hr className="h" style={{width:'500px', height:'5px', backgroundColor:'white', border:'none'}} />
+               </div> 
+
+               <div className=" d-flex justify-content-center gap-3 text-white mt-3">
+                  
+                      <SkipPreviousIcon />
+                      <PlayArrowIcon/>
+                      <PauseOutlinedIcon/>
+                      <SkipNextIcon/>
+                      <LoopOutlinedIcon />
+
+               </div>
             </div>
          </div>
 
 
-            <div className='text-white mt'>
-                <SlideshowSharpIcon/>
-                <EditOutlinedIcon/>
-                <AutoAwesomeMotionOutlinedIcon/>
-                <SpeakerPhoneOutlinedIcon/>
-            </div>
 
      </div>
    )
  }
  
- export default Footer
+ export default Footer;
  
 
 
